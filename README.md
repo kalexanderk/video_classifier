@@ -16,9 +16,11 @@ All required packages are listed in `requirements.txt`.
 # Running the Classifier
 
 Open a Python shell:
+
 `python3`
 
 Then run the following commands:
+
 `from video_classifier import Video_Classifier`
 
 `video_class = Video_Classifier(output_frames_fl=True, path_to_output_folder='frames_output_data')`
@@ -30,6 +32,7 @@ Then run the following commands:
 `video_class.run(path_to_input_folder='input_data/videos')`
 
 To exit:
+
 `quit()`
 `deactivate`
 
