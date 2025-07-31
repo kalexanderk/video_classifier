@@ -26,14 +26,17 @@ Then run the following commands:
 `video_class = Video_Classifier(output_frames_fl=True, path_to_output_folder='frames_output_data')`
 
 `# Optional: run validation using labeled data`
+
 `video_class.run_validation(path_to_labels='input_data/labels.txt', path_to_input_folder='input_data/videos')`
 
 `# Run the classifier`
+
 `video_class.run(path_to_input_folder='input_data/videos')`
 
 To exit:
 
 `quit()`
+
 `deactivate`
 
 # Notes
