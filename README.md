@@ -8,9 +8,11 @@ All required packages are listed in `requirements.txt`.
 # Setup Instructions
 
 `python3 -m venv video_classifier_env`
+
 `source video_classifier_env/bin/activate`
 
 `python3 -m pip install --upgrade pip`
+
 `python3 -m pip install -r requirements.txt`
 
 # Running the Classifier
